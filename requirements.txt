@@ -1,0 +1,15 @@
+# PDF RAG Chatbot — dependencies
+# Zero LangChain — uses openai + faiss-cpu + pypdf directly
+# Install: pip install -r requirements.txt
+
+# OpenAI SDK (any version 1.10+)
+openai>=1.10.0
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# PDF reading
+pypdf>=3.0.0
+
+# Web app
+streamlit>=1.30.0
